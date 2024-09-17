@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fersan Planejados</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;}
+        .carrossel{
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+            border-radius: 10px;
+            align-items: center;
+        }
+        .carrossel-slides{
+            display: flex;
+            width: 300%;
+            animation: slide 9s infinite;
+            align-items: center;
+        }
+        .carrossel-slides img{
+            width: 100%;
+            border-radius: 0px;
+            align-items: center;
+        }
+        @keyframes slide{
+            17%{transform: translateX(0%);}
+            33%{transform: translateX(-50%);}
+            66%{transform: translateX(-110%);}
+            100%{transform: translateX(0%);}
+        }
+    </style>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo (2).png" alt="logo fersan" height="150px">
+       
+
+        <nav>
+            <ul class="menu"> 
+                <ul><a href="contato.html">CONTATO</a></ul>
+                <ul><a href="projetos.html">PROJETOS</a></ul>
+                <ul><a href="sobre.html">SOBRE NÓS</a></ul>
+            </ul>
+        </nav>
+        <div class="redes"> <img src="imagens/insta.png" alt="redes" height="50px">
+            <img src="imagens/ytb.png" alt="redes" height="50px">
+            <img src="imagens/face.png" alt="redes" height="50px">
+        </div>
+    </header>
+    <main>
+            <div class="carrossel">
+                <div class="carrossel-slides">
+                    <img src="imagens/1.jpg" height="600px" width="1050px">
+                    <img src="imagens/2.jpg" height="600px" width="1050px">
+                    <img src="imagens/3.jpg" height="600px" width="1050px">
+                    <img src="imagens/4.jpg" height="600px" width="1050px">
+                </div>
+            </div>
+        <h3 class="textopro">Venha Conhecer nossa Loja!</h3>
+        
+        <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.772959575563!2d-46.309964!3d-23.5435332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8575bfd733e32cf9%3A0x695abce81f9be2f5!2sCenter%20Projetos!5e0!3m2!1spt-BR!2sbr!4v1726071588614!5m2!1spt-BR!2sbr" width="1900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </main>
+    <footer>
+       <nav>
+            <ul>
+                <div class="rodape">
+                <ul><a href=>Termos de uso</a></ul>
+                <ul><a href=>Política de privacidade</a></ul>
+                <ul><a href="sobre.html">Sobre nós</a></ul>
+                <p class="rodape">Entre em contato pelo e-mail: contato@exemplo.com</p>
+                <p class="direitos">&copy; 2024 - Todos os direitos reservados</p>
+                
+            </ul>
+          </div>
+         </nav>
+    </footer>
+</body>
+</html>
