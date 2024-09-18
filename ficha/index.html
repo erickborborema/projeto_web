@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Matrícula</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>FICHA DE MATRÍCULA</h1>
+    
+    <div class="section">
+        <table>
+            <tr>
+                <td class="label">Data da Matrícula:</td>
+                <td><input type="date"></td>
+                <td class="label">Código da Matrícula:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h3>DADOS DO ALUNO</h3>
+        <table>
+            <tr>
+                <td class="label">Nome:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Naturalidade:</td>
+                <td><input type="text"></td>
+                <td class="label">UF:</td>
+                <td><input type="text" maxlength="2"></td>
+            </tr>
+            <tr>
+                <td class="label">CPF:</td>
+                <td><input type="text"></td>
+                <td class="label">Data de Nasc.:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td class="label">RG:</td>
+                <td><input type="text"></td>
+                <td class="label">Órgão Exped.:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Sexo:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h3>FILIAÇÃO</h3>
+        <table>
+            <tr>
+                <td class="label">Pai:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Telefone:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Mãe:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Telefone:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Nome do Responsável:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Grau de Parentesco:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Telefone:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h3>ENDEREÇO</h3>
+        <table>
+            <tr>
+                <td class="label">Rua:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Bairro:</td>
+                <td><input type="text"></td>
+                <td class="label">Nº:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">Complemento:</td>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="label">CEP:</td>
+                <td><input type="text"></td>
+                <td class="label">Cidade/Estado:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h3>ANO ESCOLAR</h3>
+        <div class="checkbox-group">
+            <label><input type="checkbox"> Ed. Infantil: Maternal</label>
+            <label><input type="checkbox"> Pré-escola</label>
+            <label><input type="checkbox"> Ensino Fundamental</label>
+            <label><input type="checkbox"> Ensino Médio</label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>RELAÇÃO DE DOCUMENTOS PARA A MATRÍCULA</h3>
+        <table>
+            <tr>
+                <td class="label">QTD:</td>
+                <td><input type="number"></td>
+                <td class="label">DOCUMENTO:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h3>OBSERVAÇÕES</h3>
+        <textarea rows="4" style="width: 100%;"></textarea>
+    </div>
+</div>
+
+</body>
+</html>
